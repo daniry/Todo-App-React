@@ -11,7 +11,12 @@
 
 Кроме этого, приложение содержит функционал с cookie, позволяющий запоминать списки и не очищать их даже после перезагрузки страницы. 
 
+
 ## Available Scripts
+
+After cloning run: 
+
+### `npm install`
 
 In the project directory, you can run:
 
