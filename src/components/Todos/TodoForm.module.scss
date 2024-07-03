@@ -1,0 +1,35 @@
+.todoFormContainer {
+  margin-bottom: 53px;
+  form {
+    position: relative;
+  }
+  input {
+    width: 100%;
+    background-color: #272320;
+    border-radius: 50px;
+    height: 80px;
+    padding: 28px 30px;
+    border: none;
+    line-height: 125%;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    outline: none;
+    &::placeholder {
+      color: #827971;
+    }
+  }
+  button {
+    position: absolute;
+    right: 10px;
+    font-size: 1.9em;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .errorMessage {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

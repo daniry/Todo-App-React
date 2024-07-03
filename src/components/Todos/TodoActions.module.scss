@@ -1,0 +1,29 @@
+.todoActions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  button {
+    &:nth-child(1) {
+      background-color: #000000;
+      color: white;
+      &:hover {
+        background-color: #a64b4b;
+      }
+    }
+    &:nth-child(2) {
+      background-color: #867a6e;
+      font-size: 2.4em;
+      color: white;
+      &:hover {
+        background-color: #b2a291;
+      }
+    }
+    &:nth-child(3) {
+      background-color: #fff8a8;
+      &:hover {
+        background-color: #feee53;
+        color: #000;
+      }
+    }
+  }
+}

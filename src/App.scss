@@ -1,0 +1,78 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  padding: 40px 50px 60px;
+  background-color: black;
+  display: flex;
+  gap: 80px;
+  &-left {
+    width: 600px;
+    &__logo {
+      margin-bottom: 60px;
+    }
+    &__text {
+      font-weight: 600;
+      font-size: 2.8em;
+      line-height: 125%;
+      margin-bottom: 30px;
+    }
+  }
+  &-right {
+    width: 660px;
+    background-color: #feee53;
+    border-radius: 50px;
+    padding: 30px;
+    color: #000;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 975px;
+      height: 975px;
+      right: -487px;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      background: url(../public/images/star-bg.png) center no-repeat;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      margin-bottom: 30px;
+    }
+
+    .todos-complete {
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      height: 100%;
+      z-index: 1;
+      & > button {
+        background-color: #000000;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: auto;
+        &:hover {
+          background-color: #a64b4b;
+        }
+      }
+    }
+    .no-completed-text {
+      color: #4b443c;
+      width: fit-content;
+      margin-top: -10px;
+      font-size: 1.1em;
+    }
+  }
+}

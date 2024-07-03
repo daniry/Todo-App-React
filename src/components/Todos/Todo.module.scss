@@ -1,0 +1,38 @@
+.todo {
+  background-color: #4b443c;
+  padding: 10px 10px 10px 30px;
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  &.todoComplete {
+    background-color: #fff8a8;
+    color: #000;
+  }
+  &Text {
+    max-width: 60%;
+    word-wrap: break-word;
+  }
+  &EditForm {
+    max-width: 60%;
+    width: 100%;
+    input {
+      border-radius: 50px;
+      width: 100%;
+      background-color: #000;
+      height: 100%;
+      color: #fff8a8;
+      border: none;
+      line-height: 125%;
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      font-size: 1em;
+      padding: 10px 15px;
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}

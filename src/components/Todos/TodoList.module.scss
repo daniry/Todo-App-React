@@ -1,0 +1,21 @@
+.todoListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  .todoListButton {
+    width: fit-content;
+    background-color: #feee53;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    margin-top: 12px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #fff8a8;
+    }
+  }
+}
