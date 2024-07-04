@@ -66,7 +66,7 @@ function App() {
         <div className="main-left">
           <img className="main-left__logo" src="images/logo.svg" width="197" height="60" alt="Logo" />
           <p className="main-left__text">
-            Hi, Alex
+            Hi, friend
             <br />
             Check your ToDo list
           </p>
